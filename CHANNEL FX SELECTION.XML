@@ -1,0 +1,22 @@
+<!--    select CHANNEL FX (channel_effects_select)
+        
+        slot_id =   0 [High/Low Pass Combo Filter]; 
+                    1 [Dub Echo]; 
+                    2 [Reverb]; 
+                    3 [Noise]-->
+
+<control channel="xx" event_type="Note On" control="xx">
+        <userio event="click">
+            <channel_effects_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </channel_effects_select>
+        </userio>
+        <userio event="output">
+            <channel_effects_select deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </channel_effects_select>
+        </userio>
+    </control>
