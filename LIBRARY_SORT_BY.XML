@@ -1,0 +1,31 @@
+<!-- sort by ARTIST  (sort_by)
+
+        static_value =  added;
+                        album;
+                        artist;
+                        bitrate;
+                        bpm;
+                        comment;
+                        composer;
+                        filename;
+                        genre;
+                        grouping;
+                        key;
+                        label;
+                        length;
+                        location;
+                        play_count;
+                        remixer;
+                        samplerate;
+                        size;
+                        track_number;
+                        video_track
+                        year-->
+
+<control channel="xx" event_type="Note On" control="xx">
+    <userio event="click">    
+        <sort_by deck_set="Default" deck_id="0" slot_id="0">    
+            <translation action_on="press" behaviour="static" static_value="artist"/>    
+        </sort_by>    
+    </userio>
+</control>
