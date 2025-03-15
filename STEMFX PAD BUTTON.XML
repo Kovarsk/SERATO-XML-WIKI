@@ -1,0 +1,27 @@
+<!-- Control stemFX with the pads or a push button (codfather_fx)
+
+        deck_id =   0 [Deck 1];
+                    1 [Deck 2]:
+                    2 [Deck 3];
+                    3 [Deck 4]
+                    
+        slot_id =   0 [FX Vocal Echo;
+                    1 [FX Instrumental Echo]; 
+                    2 [FX instrumental Braker]; 
+                    3 [Drums Echo] -->
+
+    <control channel="5" event_type="Note On" control="68">
+        <userio event="click">
+            <codfather_fx deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </codfather_fx>
+        </userio>
+        <userio event="output">
+            <codfather_fx deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_fx>
+        </userio>
+    </control>
