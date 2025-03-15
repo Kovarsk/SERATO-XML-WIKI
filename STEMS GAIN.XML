@@ -1,0 +1,30 @@
+<!-- EQ gain STEMS (codfather_gain)
+
+        deck_id =   0 [Channel 1];
+                    1 [Channel 2]:
+                    2 [Channel 3];
+                    3 [Channel 4]
+                    
+        slot_id =   0 [Vocal]; 
+                    1 [Melody]; 
+                    2 [Bass]; 
+                    3 [Drums]-->
+
+<control channel="xx" event_type="Control Change" data_type="Absolute 7" control="xx">
+    <userio event="click">
+        <codfather_gain deck_set="Default" deck_id="0" slot_id="0">
+            <translation action_on="any" behaviour="explicit"/>
+        </codfather_gain>
+    </userio>
+    <userio event="output">
+        <codfather_gain deck_set="Default" deck_id="0" slot_id="0">
+
+            <translation action_on="any">
+                <alias name="off" value="0"/>
+                <alias name="100%" value="0"/>
+                <alias name="100%+6dB" value="1"/>
+            </translation>
+    
+        </codfather_gain>
+    </userio>
+</control>
