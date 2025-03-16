@@ -1,0 +1,79 @@
+<!-- This is an example of a simple control mapping for a button on a controller to play a track in Serato DJ software.
+When the button is pressed, it plays a track on deck 1, in slot 0, 
+and toggles the play state of the track on the controller via an LED.-->
+
+<control channel="14" event_type="Note On" control="20">
+
+<!-- Control is the signal from your controller to the software. 
+In this case, the control is a Note On message on MIDI channel 14, with a control number of 20. 
+This is the signal that the software receives when you press a button on your controller. -->
+
+        <userio event="click">
+
+        <!-- UserIO event click is the action that the software takes when it receives the control signal.
+        
+        userio event can be "click" or "output".
+        "click" is the action that the software takes when a button gets pressed on the controller
+        "output" is the action that the software sends to the controller wich will be set below -->
+
+            <play deck_set="Default" deck_id="1" slot_id="0">
+
+            <!-- The first word "play" is the action that the software takes when it receives the control signal.
+            In this case, it plays a track on deck 1. 
+            
+            deck_set is usually "Default", but it can also be "DJ Effects".
+            deck_id is Serato's identification of the deck where the action is applied, usually starts with 0 for deck 1, 1 for deck 2, etc.
+            slot_id is what command has to be applied, some actions have multiple possible commands-->
+
+
+                <translation action_on="press" behaviour="toggle"/>
+
+                <!-- Translation sets the behavior of the action.
+                In this case, it toggles the play state of the track when the button is pressed. 
+                
+                action_on can be: 
+                                "any" [action is always taken]
+                                "release" [action is taken when the button is released];
+                                "press" [action is taken when the button is pressed];
+                                "hold" [action is taken when the button is held down]. 
+                                
+                behavior can be: 
+                                "toggle" [action is toggled between on and off];                                
+                                "momentary" [action is momentary]; 
+                                "explicit" [action value is a feedback loop from the status of the controller] -->
+
+
+
+            </play>
+
+        </userio>
+
+        <userio event="output">
+
+        <!-- UserIO event output is the action that the software sends to your controller when it receives the control signal. -->
+
+            <play deck_set="Default" deck_id="1" slot_id="0">
+
+            <!-- If it plays a track on deck 1, in slot 0 a certain command will be sent-->
+
+                <translation action_on="any">
+
+                <!-- Translation is the state of the behavior of the action.
+                In this case, it togles an LED to the play state of the track on or off. -->
+
+                    <alias name="on" value="127"/>
+
+                    <!-- Alias name on is the value that the software sets when the track is playing.
+                    In this case, it sets the value to 127 (on). -->
+
+                    <alias name="off" value="0"/>
+
+                    <!-- Alias name off is the value that the software sets when the track is not playing.
+                    In this case, it sets the value to 0 (off). -->
+
+                </translation>
+            </play>
+        </userio>
+    </control>
+
+
