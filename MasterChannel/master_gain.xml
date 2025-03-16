@@ -1,0 +1,17 @@
+<!-- Control the master volume with a fader (master_gain)     -->
+
+    <control channel="xx" event_type="Control Change" data_type="Absolute 7" control="xx">
+        <userio event="click">
+            <master_gain deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </master_gain>
+        </userio>
+        <userio event="output">
+            <master_gain deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="Middle" value="0"/>
+                    <alias name="Middle+3dB" value="0"/>
+                </translation>
+            </master_gain>
+        </userio>
+     </control>
