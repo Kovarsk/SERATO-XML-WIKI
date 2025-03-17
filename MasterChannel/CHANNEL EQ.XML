@@ -1,0 +1,50 @@
+<!-- Control the channel EQ's   (deck_eq_lo)    bass
+                                (deck_eq_mid)   mids
+                                (deck_eq_hi)    highs
+
+    deck_id =   0 [Deck 1];
+                1 [Deck 2]:
+                2 [Deck 3];
+                3 [Deck 4] -->
+
+<!-- BASS -->
+    
+    <control channel=" xx " event_type="Control Change" control=" xx ">
+    
+        <userio event="click">
+    
+            <deck_eq_lo deck_set="Default" deck_id="0" slot_id="0">
+    
+                <translation action_on="any" behaviour="explicit"/>
+    
+            </deck_eq_lo>
+        </userio>
+    </control>
+
+<!-- MID -->
+    
+    <control channel=" xx " event_type="Control Change" control=" xx ">
+    
+        <userio event="click">
+    
+            <deck_eq_mid deck_set="Default" deck_id="0" slot_id="0">
+    
+                <translation action_on="any" behaviour="explicit"/>
+    
+            </deck_eq_mid>
+        </userio>
+    </control>
+
+<!-- TREBLE -->
+    
+    <control channel=" xx " event_type="Control Change" control=" xx ">
+    
+        <userio event="click">
+    
+            <deck_eq_hi deck_set="Default" deck_id="0" slot_id="0">
+    
+                <translation action_on="any" behaviour="explicit"/>
+    
+            </deck_eq_hi>
+        </userio>
+    </control>
