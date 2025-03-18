@@ -10,7 +10,7 @@
                             4 [parameter 4]-->
 
 
-    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="13">
+    <control channel="xx" event_type="Control Change" data_type="Absolute 7" control="xx">
     
         <userio event="click">
     
