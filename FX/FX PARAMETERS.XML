@@ -1,0 +1,36 @@
+<!-- dj effects parameters with a fader or potmeter  (effect_slot_parameter) 
+    
+                deck_id =   0 [FX bank left]
+                            1 [FX bank right]
+                            
+                
+                slot_id =   1 [parameter 1]     The parameters that are affected 
+                            2 [parameter 2]     depend on the selected effect.
+                            3 [parameter 3]
+                            4 [parameter 4]-->
+
+
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="13">
+    
+        <userio event="click">
+    
+            <effect_slot_parameter deck_set="DJ Effects" deck_id="0" slot_id="1">
+    
+                <translation action_on="any" behaviour="explicit"/>
+    
+            </effect_slot_parameter>
+        </userio>
+    
+        <userio event="output">
+    
+            <effect_slot_parameter deck_set="DJ Effects" deck_id="0" slot_id="1">
+    
+                <translation action_on="any">
+    
+                    <alias name="Default Value" value="0"/>
+    
+                </translation>
+    
+            </effect_slot_parameter>
+        </userio>
+    </control>
