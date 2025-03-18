@@ -1,0 +1,19 @@
+<!-- Control the displayed tab on the trackview (multi_tab_album_art)
+    
+            deck_id =   0 [Deck 1];
+                        1 [Deck 2]:
+                        2 [Deck 3];
+                        3 [Deck 4] -->
+
+    <control channel="1" event_type="Note On" control="5">
+
+        <userio event="click">
+
+            <multi_tab_album_art deck_set="Default" deck_id="0" slot_id="0">
+
+                <translation action_on="press" behaviour="toggle"/>
+
+            </multi_tab_album_art>
+        </userio>      
+    </control>
+</midi>
