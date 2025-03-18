@@ -1,4 +1,4 @@
-<!-- Control the master volume with a fader (master_gain)     -->
+<!-- Control the master volume with a fader or potmeter (master_gain)     -->
 
     <control channel="xx" event_type="Control Change" data_type="Absolute 7" control="xx">
         <userio event="click">
