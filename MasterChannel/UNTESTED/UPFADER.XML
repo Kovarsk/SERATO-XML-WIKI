@@ -1,0 +1,18 @@
+<!-- control the channel volume fader   (upfader)
+
+    deck_id =   0 [Deck 1];
+                1 [Deck 2]:
+                2 [Deck 3];
+                3 [Deck 4]-->
+
+    <control channel="xx" event_type="Control Change" control="xx">
+
+        <userio event="click">
+    
+            <upfader deck_set="Default" deck_id="0" slot_id="0">
+    
+                <translation action_on="any" behaviour="explicit"/>
+    
+            </upfader>
+        </userio>
+    </control>
