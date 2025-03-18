@@ -1,0 +1,32 @@
+<!-- Control the effect gain at the left FX bank  (effect_level_1_slot_parameter_1)
+    
+                slot_id =   1   [FX 1 gain]
+                            2   [FX 2 gain]
+                            3   [FX 3 gain] -->
+
+
+    <control channel="1" event_type="Control Change" control="28">
+
+        <userio event="click">
+
+            <effect_level_1_slot_parameter_1 deck_set="DJ Effects" deck_id="0" slot_id="3">
+
+                <translation action_on="any" behaviour="explicit"/>
+
+            </effect_level_1_slot_parameter_1>
+        </userio>
+
+        <userio event="output">
+
+            <effect_level_1_slot_parameter_1 deck_set="DJ Effects" deck_id="0" slot_id="3">
+
+                <translation action_on="any">
+
+                    <alias name="Default Value" value="0"/>
+                    <alias name="60%" value="0"/>
+
+                </translation>
+
+            </effect_level_1_slot_parameter_1>
+        </userio>
+    </control>
