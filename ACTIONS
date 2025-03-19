@@ -1,15 +1,36 @@
+C
+channel_effects_select (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/CHANNEL%20FX%20SELECTION.XML)
+codfather_fx (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/STEMS/STEMFX%20PAD%20BUTTON.XML)
+codfather_gain (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/STEMS/STEMS%20GAIN.XML)
+codfather_st (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/STEMS/STEMS%20PAD%20BUTTON%20CONTROL.XML)
+
+D
+deck_eq_lo (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/UNTESTED/CHANNEL%20EQ.XML)
+deck_eq_mid (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/UNTESTED/CHANNEL%20EQ.XML)
+deck_eq_hi (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/UNTESTED/CHANNEL%20EQ.XML)
+
+
 E
-effect_bank_beats_multiplier
-effect_level_1_slot_parameter_1
+effect_bank_beats_multiplier (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20BEATS%20MULTIPLIER.XML)
+effect_level_1_slot_parameter_1 (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20GAIN.XML)
 effect_slot_parameter (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20PARAMETERS.XML)
 
 L
-load_track (untested)
-load_track_feedback (untested)
+library_scroll (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/SCROLL%20DOWN%20WITH%20BUTTON.XML)
+load_track (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/UNTESTED/ADD%20TRACK%20TO%20DECK.XML)
+load_track_feedback (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/UNTESTED/ADD%20TRACK%20TO%20DECK.XML)
 
 M
+master_gain (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/MASTER%20GAIN.XML)
 midi_library_scroll (untested)
 multi_tab_album_art (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/TRACKVIEW%20ALBUM%20ART%20TAB%20SELECTION)
 multi_tab_cue (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/TRACKVIEW%20CUE%20TAB%20SELECTION.XML)
 multi_tab_flip (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/TRACKVIEW%20FLIP%20TAB%20SELECTION.XML)
 multi_tab_loop (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/TRACKVIEW%20LOOP%20TAB%20SELECTION.XML)
+
+S
+sort_by (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/UNTESTED/LIBRARY_SORT_BY.XML)
+
+U
+upfader (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/UNTESTED/UPFADER.XML)
+
