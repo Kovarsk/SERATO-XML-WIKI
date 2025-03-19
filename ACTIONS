@@ -4,6 +4,7 @@ codfather_fx            (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/ST
 codfather_gain          (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/STEMS/STEMS%20GAIN.XML)
 codfather_st            (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/STEMS/STEMS%20PAD%20BUTTON%20CONTROL.XML)
 
+
 D
 deck_eq_lo (untested)   (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/UNTESTED/CHANNEL%20EQ.XML)
 deck_eq_mid (untested)  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/UNTESTED/CHANNEL%20EQ.XML)
@@ -15,10 +16,12 @@ effect_bank_beats_multiplier    (https://github.com/Kovarsk/SERATO-XML-WIKI/blob
 effect_level_1_slot_parameter_1 (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20GAIN.XML)
 effect_slot_parameter           (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20PARAMETERS.XML)
 
+
 L
 library_scroll       (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/SCROLL%20DOWN%20WITH%20BUTTON.XML)
 load_track           (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/UNTESTED/ADD%20TRACK%20TO%20DECK.XML)
 load_track_feedback  (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/UNTESTED/ADD%20TRACK%20TO%20DECK.XML)
+
 
 M
 master_gain          (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/MASTER%20GAIN.XML)
@@ -28,8 +31,15 @@ multi_tab_cue        (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/T
 multi_tab_flip       (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/TRACKVIEW%20FLIP%20TAB%20SELECTION.XML)
 multi_tab_loop       (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/TRACKVIEW%20LOOP%20TAB%20SELECTION.XML)
 
+
+P
+play  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/CHANNEL%20PLAY%20BUTTON.XML)
+
+
 S
-sort_by (untested)  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/UNTESTED/LIBRARY_SORT_BY.XML)
+select_favorite_fx_bank  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20BANK%20SELECTION.XML)
+sort_by (untested)       (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/UNTESTED/LIBRARY_SORT_BY.XML)
+
 
 U
 upfader (untested)  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/UNTESTED/UPFADER.XML)
