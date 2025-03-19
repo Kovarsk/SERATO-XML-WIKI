@@ -2,10 +2,13 @@
     
                 slot_id =   1   [FX 1 gain]
                             2   [FX 2 gain]
-                            3   [FX 3 gain] -->
+                            3   [FX 3 gain] 
+
+                deck_id =   0   [left fx bank]
+                            1   [right fx bank]-->
 
 
-    <control channel="1" event_type="Control Change" control="28">
+    <control channel="xx" event_type="Control Change" control="xx">
 
         <userio event="click">
 
