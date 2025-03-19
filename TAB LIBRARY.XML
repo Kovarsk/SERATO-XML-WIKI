@@ -1,0 +1,29 @@
+<!-- Switch between crate and crate selection in the library  (tab_library) -->
+
+    <control channel="xx" event_type="Note On" control="xx">
+    
+        <userio event="click">
+    
+            <tab_library deck_set="Default" deck_id="0" slot_id="0">
+    
+                <translation action_on="press" behaviour="static" static_value="TAB"/>
+    
+            </tab_library>
+    
+        </userio>
+    
+        <userio event="output">
+    
+            <tab_library_feedback deck_set="Default" deck_id="0" slot_id="0">
+    
+                <translation action_on="any">
+    
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+    
+                </translation>
+    
+            </tab_library_feedback>
+    
+        </userio>
+    </control>
