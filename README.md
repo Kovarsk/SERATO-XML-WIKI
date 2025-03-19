@@ -1,33 +1,33 @@
 OPTIONS:
 
 
-- event_type =            "Control Change";
-                          "Note On";
+- event_type =            - "Control Change";
+                          - "Note On";
 
-- data_type =             "Relative 2&apos;s Complement";
-                          "Absolute 7"
+- data_type =             - "Relative 2&apos;s Complement";
+                          - "Absolute 7"
 
-- userio event =          "click";
-                          "output";
+- userio event =          - "click";
+                          - "output";
 
-- deck_set =              "Default";
-                          "DJ EFFECTS";
+- deck_set =              - "Default";
+                          - "DJ EFFECTS";
 
 - deck_id =
 
 - slot_id = 
 
-- translation action_on =  "any";
-                           "press";
+- translation action_on =  - "any";
+                           - "press";
 
-- behavior =               "explicit";
+- behavior =               - "explicit";
 
-- alias name =             "on"             value = "127"   (Common);
-                           "off"            value = "0"     (Common);
-                           "default value"  value = "0"     (Common);
-                           "60%"            value = "0";
-                           "Middle+3dB"     value = "0"     (master_gain; );
-                           "Middle"         value = "0"     (master_gain; );
+- alias name =             - "on"             value = "127"   (Common);
+                           - "off"            value = "0"     (Common);
+                           - "default value"  value = "0"     (Common);
+                           - "60%"            value = "0";
+                           - "Middle+3dB"     value = "0"     (master_gain; );
+                           - "Middle"         value = "0"     (master_gain; );
   
   
 
