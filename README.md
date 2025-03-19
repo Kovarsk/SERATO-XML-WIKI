@@ -1,29 +1,30 @@
 OPTIONS:
 
 
-- event_type =            "Control Change"
-                          "Note On"
+- event_type =            "Control Change";
+                          "Note On";
 
-- data_type =             "Relative 2&apos;s Complement"
+- data_type =             "Relative 2&apos;s Complement";
 
-- userio event =          "click"
-                          "output"
+- userio event =          "click";
+                          "output";
 
-- deck_set =              "Default"
-                          "DJ EFFECTS"
+- deck_set =              "Default";
+                          "DJ EFFECTS";
 
 - deck_id =
 
 - slot_id = 
 
-- translation action_on =  "any"
-                           "press"
+- translation action_on =  "any";
+                           "press";
 
-- behavior =               "explicit"
+- behavior =               "explicit";
 
-- alias name =             "on"    value = "127"
-                           "off"   value = "0"
-
+- alias name =             "on"             value = "127";
+                           "off"            value = "0";
+                           "default value"  value = "0";
+                           "60%"            value = "0";
 - 
 
 
