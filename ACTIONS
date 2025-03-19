@@ -1,0 +1,15 @@
+E
+effect_bank_beats_multiplier
+effect_level_1_slot_parameter_1
+effect_slot_parameter (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20PARAMETERS.XML)
+
+L
+load_track (untested)
+load_track_feedback (untested)
+
+M
+midi_library_scroll (untested)
+multi_tab_album_art (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/TRACKVIEW%20ALBUM%20ART%20TAB%20SELECTION)
+multi_tab_cue (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/TRACKVIEW%20CUE%20TAB%20SELECTION.XML)
+multi_tab_flip (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/TRACKVIEW%20FLIP%20TAB%20SELECTION.XML)
+multi_tab_loop (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/TRACKVIEW%20LOOP%20TAB%20SELECTION.XML)
