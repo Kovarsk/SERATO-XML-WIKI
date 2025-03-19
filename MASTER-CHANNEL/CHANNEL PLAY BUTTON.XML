@@ -1,0 +1,33 @@
+<!-- Control play button 
+
+        deck_id =   0 [Deck 1];
+                    1 [Deck 2]:
+                    2 [Deck 3];
+                    3 [Deck 4] -->
+    
+    <control channel="xx" event_type="Note On" control="xx">
+    
+        <userio event="click">
+    
+            <play deck_set="Default" deck_id="0" slot_id="0">
+    
+                <translation action_on="press" behaviour="toggle"/>
+    
+            </play>
+    
+        </userio>
+    
+        <userio event="output">
+    
+            <play deck_set="Default" deck_id="0" slot_id="0">
+    
+                <translation action_on="any">
+    
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+    
+                </translation>
+    
+            </play>
+        </userio>
+    </control>
