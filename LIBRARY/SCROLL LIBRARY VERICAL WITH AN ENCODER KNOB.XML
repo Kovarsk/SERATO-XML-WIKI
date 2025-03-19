@@ -1,0 +1,14 @@
+<!-- Scroll the library vertically with an encoder knob -->
+
+    <control channel="xx" event_type="Control Change" data_type="Absolute 7" control="xx">
+   
+        <userio event="click">
+   
+            <midi_library_scroll deck_set="Default" deck_id="0" slot_id="0">
+   
+                <translation action_on="any" behaviour="explicit"/>
+   
+            </midi_library_scroll>
+   
+        </userio>
+    </control>
