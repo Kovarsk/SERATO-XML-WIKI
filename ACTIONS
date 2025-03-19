@@ -43,6 +43,15 @@ select_favorite_fx_bank  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/F
 sort_by (untested)       (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/UNTESTED/LIBRARY_SORT_BY.XML)
 
 
+T
+tab_library          (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/TAB%20LIBRARY.XML)
+toggle_library_mode  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/LIBRARY%20VIEW%20MODE.XML)
+
+
 U
 upfader (untested)  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/UNTESTED/UPFADER.XML)
+
+
+W
+widget_cycle  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/GUI/CYCLE%20LOOP-RECORD-FLIP-SAMPLER%20PANEL.XML)
 
