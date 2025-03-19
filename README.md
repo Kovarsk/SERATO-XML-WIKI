@@ -26,7 +26,7 @@ OPTIONS:
                            "default value"  value = "0";
                            "60%"            value = "0";
   
-- 
+  
 
 
 
@@ -39,5 +39,7 @@ SOURCES:
 - https://www.reddit.com/r/Serato
 
 - https://www.reddit.com/r/DJs/
+
+- https://support.serato.com/hc/en-us/articles/209377487-MIDI-mapping-with-Serato-DJ-Pro
 
 - 
