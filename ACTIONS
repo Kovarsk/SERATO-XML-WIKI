@@ -18,8 +18,9 @@ effect_slot_parameter           (https://github.com/Kovarsk/SERATO-XML-WIKI/blob
 
 
 L
-library_scroll             (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/SCROLL%20DOWN%20WITH%20BUTTON.XML)
+library_scroll             (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/SCROLL%20VERTICAL%20WITH%20A%20BUTTON.XML)
 library_scroll_horizontal  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/SCROLL%20HORIZONTAL%20WITH%20A%20BUTTON.XML)
+midi_library_scroll        (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/SCROLL%20VERTICAL%20WITH%20AN%20ENCODER%20KNOB.XML)
 load_track                 (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/UNTESTED/ADD%20TRACK%20TO%20DECK.XML)
 load_track_feedback        (untested) (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/LIBRARY/UNTESTED/ADD%20TRACK%20TO%20DECK.XML)
 
