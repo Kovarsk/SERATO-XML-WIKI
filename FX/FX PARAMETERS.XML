@@ -7,7 +7,7 @@
                 slot_id =   1 [parameter 1]     The parameters that are affected 
                             2 [parameter 2]     depend on the selected effect.
                             3 [parameter 3]
-                            4 [parameter 4]-->
+                            4 [parameter Beats Multiplier]-->
 
 
     <control channel="xx" event_type="Control Change" data_type="Absolute 7" control="xx">
