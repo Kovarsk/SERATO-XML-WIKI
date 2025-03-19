@@ -1,9 +1,10 @@
-    <!-- BEATS MULTIPLIER  LEFT FX BANK (effect_bank_beats_multiplier)
-    
-                 -->
+    <!-- BEATS MULTIPLIER FX BANK (effect_bank_beats_multiplier)
+
+            deck_id =     0    [left fx bank]
+                          1    [right fx bank]-->
 
 
-    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="42">
+    <control channel="xx" event_type="Control Change" data_type="Relative Binary Offset" control="xx">
    
         <userio event="click">
      
