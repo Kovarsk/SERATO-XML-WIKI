@@ -1,0 +1,29 @@
+<!-- Cycle through different panels (Loops, Record, Flip, Sampler) with a push button.  (widget_cycle) -->
+
+    <control channel="xx" event_type="Note On" control="xx">
+        
+        <userio event="click">
+        
+            <widget_cycle deck_set="Default" deck_id="0" slot_id="1">
+        
+                <translation action_on="press" behaviour="static" static_value="Forward"/>
+        
+            </widget_cycle>
+        
+        </userio>
+        
+        <userio event="output">
+        
+            <widget_cycle_feedback deck_set="Default" deck_id="0" slot_id="1">
+        
+                <translation action_on="any">
+        
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+        
+                </translation>
+        
+            </widget_cycle_feedback>
+        
+        </userio>
+    </control>
