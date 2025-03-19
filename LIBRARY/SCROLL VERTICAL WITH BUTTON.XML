@@ -1,19 +1,37 @@
-<!-- scroll down in library  with a button press or hold  (library_scroll) -->
+<!-- Scroll library vertical  (library_scroll) 
+
+            static_value =  "up"    alias value "up" = 127
+                            "down"  alias value "down" = 127 -->
+
+
     <control channel="xx" event_type="Note On" control="xx">
+
         <userio event="click">
+
             <library_scroll deck_set="Default" deck_id="0" slot_id="0">
-                <translation action_on="hold" behaviour="static" static_value="down">
+
+                <translation action_on="hold" behaviour="static" static_value="up">
+
                     <curve type="reverse_ease_in" begin="0.5" end="5"/>
+
                 </translation>
+
             </library_scroll>
         </userio>
+
         <userio event="output">
+
             <library_scroll_output deck_set="Default" deck_id="0" slot_id="0">
+
                 <translation action_on="any">
+
                     <alias name="off" value="0"/>
-                    <alias name="up" value="0"/>
-                    <alias name="down" value="127"/>
+                    <alias name="up" value="127"/>
+                    <alias name="down" value="0"/>
+
                 </translation>
+
             </library_scroll_output>
+
         </userio>
     </control>
