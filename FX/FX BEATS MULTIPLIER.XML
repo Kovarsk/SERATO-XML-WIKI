@@ -1,0 +1,36 @@
+    <!-- BEATS MULTIPLIER  LEFT FX BANK (effect_bank_beats_multiplier)
+    
+                 -->
+
+
+    <control channel="1" event_type="Control Change" data_type="Absolute 7" control="42">
+   
+        <userio event="click">
+     
+            <effect_bank_beats_multiplier deck_set="DJ Effects" deck_id="0" slot_id="0">
+     
+                <translation action_on="any" behaviour="explicit"/>
+     
+            </effect_bank_beats_multiplier>
+        </userio>
+     
+        <userio event="output">
+     
+            <effect_bank_beats_multiplier deck_set="DJ Effects" deck_id="0" slot_id="0">
+     
+                <translation action_on="any">
+     
+                    <alias name="1/16" value="0"/>
+                    <alias name="1/8" value="0"/>
+                    <alias name="1/4" value="0"/>
+                    <alias name="1/2" value="0"/>
+                    <alias name="1" value="0"/>
+                    <alias name="2" value="0"/>
+                    <alias name="4" value="0"/>
+                    <alias name="8" value="0"/>
+     
+                </translation>
+     
+            </effect_bank_beats_multiplier>
+        </userio>
+    </control>
