@@ -21,6 +21,7 @@ OPTIONS:
                            - "press";
 
 - behavior =               - "explicit";
+                           - "toggle";
 
 - alias name =             - "on"             value = "127"   (Common);
                            - "off"            value = "0"     (Common);
