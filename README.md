@@ -22,6 +22,12 @@ OPTIONS:
 
 - behavior =               - "explicit";
                            - "toggle";
+                           - "static" [needs static_value = ]
+
+- static_value =           - "up"
+                           - "down"
+                           - "left"
+                           -"right"
 
 - alias name =             - "on"             value = "127"   (Common);
                            - "off"            value = "0"     (Common);
