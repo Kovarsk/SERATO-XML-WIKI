@@ -1,0 +1,31 @@
+<!-- Switches between library view mode and last used view mode  (toggle_library_mode) -->
+
+
+    <control channel="xx" event_type="Note On" control="xx">
+       
+        <userio event="click">
+       
+            <toggle_library_mode deck_set="Default" deck_id="0" slot_id="0">
+       
+                <translation action_on="press" behaviour="static" static_value="toggle_library"/>
+       
+            </toggle_library_mode>
+       
+        </userio>
+       
+        <userio event="output">
+       
+            <toggle_library_mode deck_set="Default" deck_id="0" slot_id="0">
+       
+                <translation action_on="any">
+       
+                    <alias name="toggle_library" value="0"/>
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+       
+                </translation>
+       
+            </toggle_library_mode>
+       
+        </userio>
+    </control>
