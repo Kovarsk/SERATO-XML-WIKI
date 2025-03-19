@@ -1,0 +1,36 @@
+<!-- Select FX bank A; B; C; D 
+
+            static_value =  A [FX bank A]
+                            B [FX bank B]
+                            C [FX bank C]
+                            D [FX bank D] -->
+
+
+    <control channel="1" event_type="Note On" control="2">
+
+        <userio event="click">
+
+            <select_favorite_fx_bank deck_set="DJ Effects" deck_id="0" slot_id="0">
+
+                <translation action_on="press" behaviour="static" static_value="A"/>
+
+            </select_favorite_fx_bank>
+        </userio>
+
+        <userio event="output">
+
+            <select_favorite_fx_bank deck_set="DJ Effects" deck_id="0" slot_id="0">
+
+                <translation action_on="any">
+
+                    <alias name="Off" value="0"/>
+                    <alias name="A" value="127"/>
+                    <alias name="B" value="0"/>
+                    <alias name="C" value="0"/>
+                    <alias name="D" value="0"/>
+
+                </translation>
+
+            </select_favorite_fx_bank>
+        </userio>
+    </control>
