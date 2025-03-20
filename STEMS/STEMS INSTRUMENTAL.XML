@@ -1,4 +1,9 @@
-<!-- Isolate the instrumental from the track with stems   (codfather_in)   -->
+<!-- Isolate the instrumental from the track with stems   (codfather_in) 
+
+        deck_id =   0 [Deck 1];
+                    1 [Deck 2]:
+                    2 [Deck 3];
+                    3 [Deck 4]  -->
     
     <control channel="xx" event_type="Note On" control="xx">
     
