@@ -1,0 +1,30 @@
+<!-- Isolate the vocal from the track with stems  (codfather_ac)   -->
+    
+    <control channel="xx" event_type="Note On" control="xx">
+    
+        <userio event="click">
+    
+            <codfather_ac deck_set="Default" deck_id="0" slot_id="0">
+    
+                <translation action_on="press" behaviour="toggle"/>
+    
+            </codfather_ac>
+    
+        </userio>
+    
+        <userio event="output">
+    
+            <codfather_ac deck_set="Default" deck_id="0" slot_id="0">
+    
+                <translation action_on="any">
+    
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                    <alias name="disabled" value="0"/>
+    
+                </translation>
+    
+            </codfather_ac>
+    
+        </userio>
+    </control>
