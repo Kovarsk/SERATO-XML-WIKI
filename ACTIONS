@@ -13,7 +13,7 @@ deck_eq_hi  (untested)  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MA
 
 E
 effect_bank_beats_multiplier    (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20BEATS%20MULTIPLIER.XML)
-effect_level_1_slot_parameter_1 (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20GAIN.XML)
+effect_level_1_slot_parameter_1 (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20DRY-WET%20LEVEL.XML)
 effect_slot_parameter           (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/FX/FX%20PARAMETERS.XML)
 
 
