@@ -1,4 +1,4 @@
-<!-- Control the effect gain at the left FX bank  (effect_level_1_slot_parameter_1)
+<!-- Control the effect gain at the FX bank  (effect_level_1_slot_parameter_1)
     
                 slot_id =   1   [FX 1 gain]
                             2   [FX 2 gain]
