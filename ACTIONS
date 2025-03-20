@@ -1,7 +1,9 @@
 C
 channel_effects_select  (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/MASTER-CHANNEL/CHANNEL%20FX%20SELECTION.XML)
+codfather_ac            (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/STEMS/STEMS%20ACAPELLA.XML)
 codfather_fx            (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/STEMS/STEMFX%20PAD%20BUTTON.XML)
 codfather_gain          (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/STEMS/STEMS%20GAIN.XML)
+codfather_in            (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/STEMS/STEMS%20INSTRUMENTAL.XML)
 codfather_st            (https://github.com/Kovarsk/SERATO-XML-WIKI/blob/main/STEMS/STEMS%20PAD%20BUTTON%20CONTROL.XML)
 
 
