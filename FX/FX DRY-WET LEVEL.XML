@@ -1,8 +1,8 @@
-<!-- Control the effect gain at the FX bank  (effect_level_1_slot_parameter_1)
+<!-- Control the effect dry/wet level  (effect_level_1_slot_parameter_1)
     
-                slot_id =   1   [FX 1 gain]
-                            2   [FX 2 gain]
-                            3   [FX 3 gain] 
+                slot_id =   1   [FX 1 dry/wet level]
+                            2   [FX 2 dry/wet level]
+                            3   [FX 3 dry/wet level] 
 
                 deck_id =   0   [left fx bank]
                             1   [right fx bank]-->
